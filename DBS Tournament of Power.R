@@ -1,7 +1,7 @@
 #This project is about Dragonball Super's Tournament of Power Eliminations
 
 # This part is code for how many elimination each universe has
-Tourney_Transcript <- read.csv("C:/Users/iftia/OneDrive/Documents/Iftiar's R Projects/DBS Tourney/DBS Tournament of Power.csv")
+Tourney_Transcript <- read.csv("C:/Users/.../.../.../.../.../DBS Tournament of Power.csv")
 Tourney_Transcript 
 #Since some competitors needed 2 or more people to eliminate them, some part of the file has NA
 Elimination_Data_Frame <- data.frame(Universe = Tourney_Transcript$Universe, Eliminated_By_Universe = Tourney_Transcript$Eliminator_Universe)
